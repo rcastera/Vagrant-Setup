@@ -32,5 +32,11 @@ sudo npm install -g express
 sudo npm install -g grunt
 sudo npm install -g grunt-cli
 
-#install bower
+# install bower
 sudo npm install -g bower
+
+# install mean.io
+git clone https://github.com/linnovate/mean.git
+cd mean
+sudo npm install
+grunt
